@@ -6,7 +6,7 @@ const NavBar = () => {
     <header className="d-flex flex-wrap align-items-center justify-content-between py-3 mb-4 border-bottom">
       <div className="container d-flex flex-wrap align-items-center justify-content-between">
         <a href="/" className="d-flex align-items-center mb-2 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <img src={"../src/components/Imagens/Logo.png"} alt="BillyBrinquedos" width={130} height={100} />
+          <img src={"/Imagens/Logo.png"} alt="BillyBrinquedos" width={130} height={100} />
         </a>
         <ul className="nav nav-pills">
           <li className="nav-item">
