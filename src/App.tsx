@@ -5,13 +5,12 @@ import Sobrenos from './components/Sobrenos'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 function App() {
-  
   return (
-    <div>
+    <>
     <Inicio />
     <Catalogo />
     <Sobrenos />
-    </div>
+    </>
   );
 }
 

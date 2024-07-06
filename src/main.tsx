@@ -16,7 +16,6 @@ root.render(
     <NavBar />
     <Routes>
       <Route path="/" element={<Inicio />} />
-      <Route path="/Inicio" element={<Inicio />} />
       <Route path="/Catalogo" element={<Catalogo />} />
       <Route path="/Sobrenos" element={<Sobrenos />} />
     </Routes>
