@@ -7,7 +7,6 @@ function Inicio() {
     <ExampleCarouselImage text={'Frist slide, Second slide, Third slide'} />
 
       <div className="container p-4">
-        <h1 className="display-4">Inicio</h1>
         <p className="lead">A Billy Brinquedos é uma empresa que se destaca no mercado de brinquedos, com o objetivo de proporcionar aos
           nossos clientes uma variedade de opções de brinquedos de alta qualidade, que sejam acessíveis e diversificados.</p>
         <div className="row">

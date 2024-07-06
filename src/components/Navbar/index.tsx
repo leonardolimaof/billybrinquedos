@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import  Logo  from "../../components/Imagens/Logo.png";
+import insta from "../../components/Imagens/icons8-instagram.svg";
 
 const NavBar = () => {
   return (
@@ -17,6 +18,9 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
           <NavLink to={"/Sobrenos/"} className="nav-link">Sobre Nós</NavLink>
+          </li>
+          <li>
+          <a target="_blank" href="https://instagrma.com/billybrinquedos"><img src={insta} alt="Instagram do BillyBrinquedos" /></a>
           </li>
         </ul>
       </div>
