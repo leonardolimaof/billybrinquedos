@@ -15,7 +15,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ function Catalogo() {
                                 <p className="card-text">Esse produto tem 0x0x0.</p>
                             </div>
                             <div className="card-footer">
-                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20:)" className="btn btn-success">Chamar no Whatsapp</a>
+                                <a href="https://api.whatsapp.com/send?phone=5585996282337&text=Ol%C3%A1,%20acessei%20sua%20pagina%20e%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!%20" className="btn btn-success">Chamar no Whatsapp</a>
                             </div>
                         </div>
                     </div>
