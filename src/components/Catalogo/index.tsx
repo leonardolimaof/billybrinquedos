@@ -1,5 +1,3 @@
-import { Card, Nav, Button } from "react-bootstrap";
-
 
 function Catalogo() {
     return (
