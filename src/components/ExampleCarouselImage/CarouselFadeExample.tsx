@@ -1,35 +1,60 @@
+// components/CarouselFadeExample.tsx
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from './ExampleCarouselImage';
-
+import Imagem1 from '../ExampleCarouselImage/img/Imagem1.jpg';
+import Imagem2 from '../ExampleCarouselImage/img/Imagem2.jpg';
+import Imagem3 from '../ExampleCarouselImage/img/Imagem3.jpg';
 
 const CarouselFadeExample: React.FC = () => {
+  const [index, setIndex] = React.useState(0);
+
+  const handleChangeIndex = () => {
+    setIndex((prevIndex) =>
+      prevIndex === 2 ? 0 : prevIndex + 1
+    );
+  };
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => handleChangeIndex(),
+      7000
+    );
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
-    <Carousel fade>
-      <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <>
+      <div className="container">
+        <Carousel
+          fade
+          interval={7000}
+          activeIndex={index}
+          onSelect={handleChangeIndex}
+        >
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={Imagem1.replace('1.jpg', '1.jpg?resize=800:400')}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={Imagem2.replace('Imagem2.jpg', 'Imagem2.jpg?resize=800:400')}
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={Imagem3.replace('1.jpg', '1.jpg?resize=800:400')}
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+      </div>
+    </>
   );
 };
 

@@ -1,10 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ExampleCarouselImage from '../ExampleCarouselImage/ExampleCarouselImage';
+import CarouselFadeExample from '../ExampleCarouselImage/CarouselFadeExample';
+import VideoIframe from '../Iframe';
 
 function Inicio() {
   return (
     <>
-    <ExampleCarouselImage text={'Frist slide, Second slide, Third slide'} />
+      <CarouselFadeExample />
 
       <div className="container p-4">
         <p className="lead">A Billy Brinquedos é uma empresa que se destaca no mercado de brinquedos, com o objetivo de proporcionar aos
@@ -19,6 +20,10 @@ function Inicio() {
               mais novos até os mais antigos. Por isso, trabalhamos com a melhoria contínua de nossos produtos, para que
               sempre estejamos oferecendo aos clientes a melhor experiência possível.</p>
           </div>
+        </div>
+        <div className="App">
+          <h1 className="display-3 text-center">Depoimentos de Clientes</h1>
+          <VideoIframe videoUrl="https://www.youtube.com/embed/SEU_VIDEO_ID" />
         </div>
       </div>
     </>
