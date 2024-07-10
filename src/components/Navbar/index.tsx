@@ -21,7 +21,7 @@ const NavBar = () => {
           <NavLink to={"/Sobrenos/"} className="nav-link"><i className="bi bi-file-earmark-person"></i> Sobre Nós</NavLink>
           </li>
           <li>
-          <a target="_blank" href="https://instagrma.com/billybrinquedos"><img src={insta} alt="Instagram do BillyBrinquedos" /></a>
+          <a target="_blank" href="https://instagram.com/billybrinquedos"><img src={insta} alt="Instagram do BillyBrinquedos" /></a>
           </li>
         </ul>
       </div>
