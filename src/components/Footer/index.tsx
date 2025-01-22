@@ -4,7 +4,7 @@ function Footer() {
             <div className="text-center p-3">
                 © 2024 - Todos os direitos reservados - Billy Brinquedos
                 <br/>
-                <a className="text-dark" href="https://leonardolimadev.vercel.app">leonardolimadev.vercel.app</a>
+                <a className="text-dark" href="https://leonardolimadeveloper.vercel.app">leonardolimadeveloper.vercel.app</a>
             </div>
         </footer>
     );
