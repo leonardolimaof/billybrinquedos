@@ -1,16 +1,88 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="src/components/Imagens/Logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Billy Brinquedos - Playgrounds e Brinquedos Infantis de Qualidade</title>
+    <meta name="description" content="A Billy Brinquedos oferece playgrounds e brinquedos infantis de alta qualidade. Fabricamos e vendemos playgrounds fixos e com reboque, entregamos para todo Brasil." />
+    <meta name="keywords" content="playground, brinquedos infantis, playground com reboque, playground fixo, brinquedos, parque infantil, billy brinquedos" />
+    <meta name="author" content="Billy Brinquedos" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billybrinquedos.com.br/" />
+    <meta property="og:title" content="Billy Brinquedos - Playgrounds e Brinquedos Infantis" />
+    <meta property="og:description" content="Playgrounds e brinquedos infantis de alta qualidade. Entrega para todo Brasil." />
+    <meta property="og:image" content="src/components/Imagens/Logo.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://billybrinquedos.com.br/" />
+    <meta property="twitter:title" content="Billy Brinquedos - Playgrounds e Brinquedos Infantis" />
+    <meta property="twitter:description" content="Playgrounds e brinquedos infantis de alta qualidade. Entrega para todo Brasil." />
+    <meta property="twitter:image" content="src/components/Imagens/Logo.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://billybrinquedos.com.br/" />
+
+    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>Billy Brinquedos</title>
+
+    <!-- Preload de recursos importantes -->
+    <link rel="preload" href="src/components/Imagens/Logo.png" as="image" />
+
+    <!-- Verificação de propriedade do site -->
+    <meta name="google-site-verification" content="seu-código-aqui" />
+
+    <!-- Região e Idioma -->
+    <meta name="geo.region" content="BR" />
+    <meta name="geo.placename" content="Brasil" />
+    <meta name="language" content="Portuguese" />
+
+    <!-- Cor do tema para mobile -->
+    <meta name="theme-color" content="#0099FF" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0099FF" />
+
+    <!-- PWA Tags -->
+    <meta name="application-name" content="Billy Brinquedos" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Billy Brinquedos" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Estruturação de dados Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Billy Brinquedos",
+        "description": "Fabricação e venda de playgrounds e brinquedos infantis de alta qualidade",
+        "url": "https://billybrinquedos.com.br",
+        "logo": "src/components/Imagens/Logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+55-85-99628-2337",
+          "contactType": "customer service"
+        },
+        "sameAs": [
+          "https://instagram.com/billybrinquedos"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Noscript para usuários sem JavaScript -->
+    <noscript>
+      <p>Para uma melhor experiência, por favor, habilite o JavaScript no seu navegador.</p>
+    </noscript>
   </body>
 </html>
