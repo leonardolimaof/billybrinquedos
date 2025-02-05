@@ -7,10 +7,9 @@ interface VideoIframeProps {
 
 const VideoIframe: React.FC<VideoIframeProps> = ({ videoUrl }) => {
   return (
-    <div className="video-iframe-container">
+    <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
       <iframe
-        width="100%"
-        height="500px"
+        className="absolute top-0 left-0 w-full h-full"
         src={videoUrl}
         title="Video de Depoimentos"
         frameBorder="0"
