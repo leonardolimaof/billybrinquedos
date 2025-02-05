@@ -5,12 +5,51 @@
     <link rel="icon" type="image/svg+xml" href="src/components/Imagens/Logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Preload de fontes críticas -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- Font display swap para evitar FOIT -->
+    <style>
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
+      }
+      @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+      }
+    </style>
+    
     <!-- SEO Meta Tags -->
     <title>Billy Brinquedos - Playgrounds e Brinquedos Infantis de Qualidade</title>
     <meta name="description" content="A Billy Brinquedos oferece playgrounds e brinquedos infantis de alta qualidade. Fabricamos e vendemos playgrounds fixos e com reboque, entregamos para todo Brasil." />
     <meta name="keywords" content="playground, brinquedos infantis, playground com reboque, playground fixo, brinquedos, parque infantil, billy brinquedos" />
     <meta name="author" content="Billy Brinquedos" />
     <meta name="robots" content="index, follow" />
+
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="max-age=31536000" />
+
+    <!-- Preload de imagens críticas -->
+    <link rel="preload" as="image" href="src/components/Imagens/Logo.png" fetchpriority="high" />
+    <link rel="preload" as="image" href="src/components/ExampleCarouselImage/img/Imagem1.jpg" fetchpriority="high" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -28,17 +67,6 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://billybrinquedos.com.br/" />
-
-    <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Preload de recursos importantes -->
-    <link rel="preload" href="src/components/Imagens/Logo.png" as="image" />
-
-    <!-- Verificação de propriedade do site -->
-    <meta name="google-site-verification" content="seu-código-aqui" />
 
     <!-- Região e Idioma -->
     <meta name="geo.region" content="BR" />
